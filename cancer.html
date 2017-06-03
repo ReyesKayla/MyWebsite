@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="cancer.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div class="content">
+	<img class="head" src="crab.png" alt="crab">
+	<p class="love">
+		Cancer is the sign of family and children, ruler of the heart and all its matters, which you take rather 
+		seriously. While your friends are playing the field or ordering their first legal cocktails, you’re busy
+		picking names for your future children or mentally decorating their nurseries.
+	</p>
+	<img class="scary" src="can.png" alt="cancer">
+	<img class="pic" src="cancerr.png" alt="cancer">
+	<p class="personality">
+		&emsp; &emsp; The crab symbolizes this sign for good reason. Just as the crab carries its own shell on 
+		its back, so too, does the typical cancerian…so to speak. The typical cancer person is all about home
+		and family and is very dedicated and loyal to friends and family. Crabs often move sideways instead of
+		moving in a straight line, and so will the person of this sign. Often, if it will avoid a fight, or achieve
+		the goal, then moving in alternative directions to arrive at the destination is typical. They tend to grasp 
+		and hold tightly those things that make them happy, and never let go. The key characteristic of this sign 
+		is that Cancer people need to be needed. They need to know that they matter to someone and that they are
+		secure in that love.
+	</p>
+	<p class="upside">
+		&emsp;  Cancer have an offbeat sense of humor, often finding something humorous that others don’t. They are 
+		extremely good listeners and have a heart for the problems of others. In fact, many gravitate toward this 
+		sign because they intuitively know that a Cancer will understand. </p>
+	</div>
+	<p class="downside">
+		&emsp; This sign can be moody, clingy, and often become incredibly insecure if they feel that they are about
+		to lose the friendship or love of someone close to them. If the situation calls for it, they will lie, but often 
+		this dishonesty stems from a deep insecurity about being alone. </p>
+</body>
+</html>
