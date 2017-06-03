@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="pisces.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div class="content">
+	<img class="head" src="fishes.png" alt="fishes">
+	<p class="love">
+		You’re a romantic sign, Pisces, and you love to be in love—at least, in theory. Ruled by Neptune, 
+		planet of fantasy, you want to be swept away by romance. Glamorous Pisces rules the imagination,
+		and you have a way of making everything feel tinged with magic and fantasy. You’re gentle,
+		nurturing and sensitive, and your mates rely on you to soften the rough edges.
+	</p>
+	<img class="scary" src="pis.png" alt="pisces">
+	<img class="pic" src="piscess.png" alt="pisces">
+	<p class="personality">
+		&emsp; &emsp; The fish is the symbol given to this sign, primarily because fish live in a secretive 
+		and mysterious place. Pisces tend to be daydreamers, often dreaming up brilliant ideas and plans which 
+		they are unable to facilitate themselves. They have a happy and vibrant inner life that few get to share 
+		or see. They are deeply caring about others and don’t like to see people become unhappy.
+	</p>
+	<p class="upside">
+		&emsp; Pisces are empathetic people, often feeling badly for someone whose life is not going well. They
+		feel the need to reach out to those who are less fortunate and will often find themselves involved in drama 
+		that they hadn’t intended. They are kind, caring individuals who feel everything deeply, even though you
+		would not know it on the surface.  </p>
+	</div>
+	<p class="downside">
+		&emsp; Because they feel everything so intensely, this sign can often become a clinical worrier. They will 
+		worry that they are not worrying. This tendency to worry also leads to indecision on their part, fearing that
+		if they make a decision that others disagree with that they will have upset someone. Pisces don’t like to
+		hurt people’s feelings and as such become conflicted when they have to make decisions. They do not do well
+		as leaders, but are impressive support personnel. </p>
+</body>
+</html>
