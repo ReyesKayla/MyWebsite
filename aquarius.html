@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="aquarius.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div class="content">
+	<img class="head" src="water bearer.png" alt="water bearer">
+	<p class="love">
+		When it comes to love, Aquarius is a funny creature. You’re an idealist who believes in true love, and 
+		you’re always searching for a best friend and soulmate in one. On the other hand, your sign rules casual 
+		connections, and you guard your independence fiercely. 
+	</p>
+	<img class="scary" src="aqua.png" alt="aquarius">
+	<img class="pic" src="aquariuss.png" alt="aquarius">
+	<p class="personality">
+		&emsp; &emsp; The man who carries the pitcher of water is the symbol for this sign. This is because 
+		Aquarians are often generous with their time and resources. For this reason this sign often find
+		themselves in occupations where they are helping on some humanitarian level. They are interested and
+		have a deep concern for the welfare of others. They never know a stranger and are generally loved by 
+		all around them. Aquarians never meet a stranger and often will go out of their way to meet with people 
+		that they’ve not heard from for years.
+	</p>
+	<p class="upside">
+		&emsp;  Aquarians are among the friendliest of the signs, making friends everywhere. They are often chosen 
+		among co-workers and family for special awards and honors because of their ability to network. Highly
+		intelligent they are energetic and talented, often using their abilities to help others. Despite their
+		extensive people skills, they often crave alone time to reflect and think about things. </p>
+	</div>
+	<p class="downside">
+		&emsp;If this sign does not have alone time and time to do much desired reflection, they become dour, 
+		emotionless, and even are prone to depressive interludes. They can become highly resentful if they believe
+		that their voice is not being truly heard or valued. Because they do self-reflect, this sign can become quite 
+		eccentric in some of the hobbies that they pursue, or activities they enjoy. </p>
+</body>
+</html>
