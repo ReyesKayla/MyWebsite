@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="libra.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div class="content">
+	<img class="head" src="scales.png" alt="scale">
+	<p class="love">
+		Libra rules the zodiac’s seventh house of relationships, and you’re at your best when you have a 
+		companion to share your life with. A romantic idealist, you’ll wander the Earth looking for the 
+		perfect match. In fact, you’ll wait years until the right person comes along, leaving friends and 
+		family wondering why someone with your charm and good looks is still single
+	</p>
+	<img class="scary" src="lib.png" alt="libra">
+	<img class="pic" src="libraa.png" alt="libra">
+	<p class="personality">
+		&emsp; &emsp; Libra people tend to need balance in their lives like no other sign of the zodiac,
+		which makes the symbol of the scales particularly appropriate for this sign. Libra people need to
+		keep a balance between work lives and recreational lives and an equal balance in their emotional and
+		spiritual/physical lives. Because of this need Libra signs can sometimes seem wishy-washy when they 
+		are asked to make a decision. This is because they must ‘weigh’ all of their options. However, rest
+		assured, that when a Libra makes up their mind the decision is likely to be the best win/win for all 
+		involved; benefiting the most people. This sign does not like to see people unhappy.
+	</p>
+	<p class="upside">
+		&emsp; Libra all have a sense of fair play about them and become completely upset if they perceive that 
+		something is unfair or unjust. They are prone to talking for long periods of time about their favorite 
+		subjects. Generally the decisions that a Libra makes are the ones that will benefit the most people. Libra
+		are often self-sacrificing for the good of the team or the family. </p>
+	</div>
+	<p class="downside">
+		&emsp; Because Libra take so long to make decisions it can be perceived as laziness, or absent- mindedness.
+		Libra, because of their sense of justice and fair play, will often become argumentative to the exclusion of 
+		decorum or appropriateness. Libra don’t like to be in charge, but they like to have a say and to be heard. </p>
+</body>
+</html>
