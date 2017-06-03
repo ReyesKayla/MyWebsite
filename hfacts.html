@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="stylesheet2.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div>
+		<p class="facts">
+			The word <b>Zodiac</b> comes from both Greek and Latin. It means “circle of figures” or “circle of life.” <br>
+			According to the ancient Romans, the year began on the spring equinox, with Aries. <br>
+			<br>
+			<b>Here are some fun facts. </b><br> <hr>
+		</p>
+		<div id="gallery">
+			<img class="gallery" src="a.jpg" alt="a"> 
+			<img class="gallery" src="b.jpg" alt="a"> 
+			<img class="gallery" src="c.jpg" alt="a"> 
+			<img class="gallery" src="d.jpg" alt="a"> 
+			<img class="gallery" src="e.jpg" alt="a"> 
+			<img class="gallery" src="f.jpg" alt="a"> 
+			<img class="gallery" src="g.jpg" alt="a"> 
+			<img class="gallery" src="h.jpg" alt="a"> 
+			<img class="gallery" src="i.jpg" alt="a"> 
+			<img class="gallery" src="j.jpg" alt="a"> 
+			<img class="gallery" src="k.jpg" alt="a"> 
+			<img class="gallery" src="l.jpg" alt="a">
+			<img class="gallery" src="m.jpg" alt="a"> 
+			<img class="gallery" src="n.jpg" alt="a">
+			<img class="gallery" src="o.jpg" alt="a"> 
+			<img class="gallery" src="p.jpg" alt="a"> 
+			<img class="gallery" src="q.jpg" alt="a">
+			<img class="gallery" src="r.jpg" alt="a">
+			<img class="gallery" src="r.jpg" alt="a">
+			<img class="gallery" src="s.jpg" alt="a">
+			<img class="gallery" src="t.jpg" alt="a"> 
+			<img class="gallery" src="u.jpg" alt="a">
+			<img class="gallery" src="v.jpg" alt="a">
+			<img class="gallery" src="w.jpg" alt="a">
+			<img class="gallery" src="x.jpg" alt="a">
+			<img class="gallery" src="y.jpg" alt="a">
+			<img class="gallery" src="z.jpg" alt="a">
+			<img class="gallery" src="aa.jpg" alt="a">
+		</div>	
+	</div>
+	<hr>
+</body>
+</html>
