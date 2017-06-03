@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="aries.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div class="content">
+	<img class="head" src="ram.png" alt="ram">
+	<p class="love">
+		In love, Aries is a one-on-one person. You can never get too much attention or solo time with your 
+		sweetie. You’ll put your partner first in all matters, and you expect the same in return. If your
+		mate’s universe doesn’t include a starring role for you, there’s simply no point in being together.
+	</p>
+	<img class="scary" src="ari.png" alt="aries">
+	<img class="pic" src="ariess.png" alt="aries">
+	<p class="personality">
+		&emsp; &emsp; The symbol for this sign is that of a ram for good reason. Aries is full of life and possesses 
+		high energy, which makes this sign always looking for a challenge. The typical Aries person is 
+		full of vitality, curiosity, and has a heightened sense of justice. They often excel at anything 
+		where a bit of competition is involved, whether this is of a cognitive nature or physical. The 
+		challenge is the thing. If there is a chance to win, to best someone, to show off abilities, Aries
+		is in it to win it. The Aries person feels most alive when they are in control and leading others.
+		They are often impatient and abrupt with those whom they feel are not their equals and are in a
+		leadership position. Most Aries do not like being told what to do if the person in charge is less 
+		talented than they.
+	</p>
+	<p class="upside">
+		&emsp;  Highly energetic, and has no problem working long hours on a single project. Often take the
+		initiative experiencing new breakthroughs and discoveries. Aries are thorough, painstaking, and have 
+		a knack for precise records and clarity. They live hard, love hard, and play hard. </p>
+	</div>
+	<p class="downside">
+		&emsp; Aries have tunnel vision when working on a project which can make them seem selfish. They can 
+		become impatient with those who are not similar to themselves temperamentally and intellectually. The 
+		dedication to a project can become stubbornness, possessiveness, and can lead to a withdrawn and sullen 
+		attitude. Many Aries who do not feel acknowledged for their accomplishments become sarcastic and rude. </p>
+</body>
+</html>
