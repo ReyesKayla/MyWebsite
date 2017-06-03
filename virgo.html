@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="virgo.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	<div class="content">
+	<img class="head" src="virgin.png" alt="virgin">
+	<p class="love">
+		Picky Virgo, love can be a challenge when your high standards get involved. As the zodiac’s perfectionist, 
+		it’s hard for anyone to measure up to your criteria. You’d rather be alone than settle—a great attitude, 
+		as long as you keep your expectations realistic.
+	</p>
+	<img class="scary" src="vir.png" alt="virgin">
+	<img class="pic" src="virgoo.png" alt="virgo">
+	<p class="personality">
+		&emsp; &emsp;The cool, calm, clarity that this sign exudes is why the symbol of the Maiden was chosen. Virgo
+		people are mild mannered on the surface, but underneath there is a flurry of activity. Their minds are never
+		quiet; always thinking, calculating, assessing. They loves making something out of nothing, nurturing and 
+		growing small things. They tend to be extremely detail oriented and particularly like producing something that
+		is not only useful, but beautiful and skillful.
+	</p>
+	<p class="upside">
+		&emsp; Virgo have a heart for their fellow man. They are kind, patient and love to laugh. They are not loud 
+		‘look at me’ signs, but rather prefer to be the strong, silent type. They are creative thinkers and true family 
+		oriented people. Male Virgo, once they are committed to relationship never walk away (unless there is a betrayal,
+		and even then it isn’t written in stone). Female Virgo are dedicated parents, often parenting other children in 
+		the neighborhood. </p>
+	</div>
+	<p class="downside">
+		&emsp; Virgo are particularly attentive to health; theirs, yours, everyone’s, which can often lead to obsessive
+		behaviors toward health (hypochondria). They can also be judgmental and critical of those that they feel are not
+		living up to their potential, or are going about a project in an inefficient way. Virgo are opinionated and have
+		no problem sharing their opinions, even when they should not. </p>
+</body>
+</html>
