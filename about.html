@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="stylesheet4.css">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+	
+	<section>
+		<h2> About Astrology </h2>
+		<br>
+		<p> The purpose for this website is to help everyone to learn and understand more about Astrology. 
+		It also aim to help everyone to know about their own zodiac sign and the interesting facts of the 
+		zodiac signs.
+		</p>
+		<br>
+		<br>
+		<br>
+		<h2> About the Author </h2>
+		<br>
+		<p id="lol"> Kayla is interested about astrology and the zodiac signs. So, she wanted to learn about the astrology
+		and ach of the zodiac signs by creating this website. </p>
+	</section>
+	<img src="me.jpg" alt="KaylaGwapa">
+	<div class="last">
+		THANK YOU FOR VISITING!
+	</div>
+	<br>
+	<br>
+	<div> 
+		References : <br>
+		https://www.factmonster.com/science/constellations-and-stars/zodiac <br>
+		https://www.horoscopedates.com <br>
+		http://astrostyle.com/ <br>
+	</div>
+		
+</body>
+</html>
