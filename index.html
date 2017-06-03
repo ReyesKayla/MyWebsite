@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zodiac </title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="javascript" href="java.js">
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="hfacts.html">Horoscope Fun Facts</a>
+		<a href="learn.html">Learn Astrology</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="main">
+		<span class="white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>
+	<script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+		}
+	</script>
+    <div> <center>
+		<img class="one" src="2.png" alt="astrology"> <br>
+		<img class="two" src="1.png" alt="blabla">
+	</center> </div>
+	<div id="zodiacs"> <center>
+		<a href="aries.html"> <img class="zodiacs" src="aries.png" height="250px" alt="virgo"> </a>
+		<a href="taurus.html"> <img class="zodiacs" src="taurus.png" height="250px" alt="virgo"> </a>
+		<a href="gemini.html"> <img class="zodiacs" src="gemini.png" height="250px" alt="virgo"> </a>
+		<a href="cancer.html"> <img class="zodiacs" src="cancer.png" height="245px" alt="virgo"> </a>
+		<a href="leo.html"> <img class="zodiacs" src="leo.png" height="250px" alt="virgo"> </a>
+		<a href="virgo.html"> <img class="zodiacs" src="virgo.png" height="250px" alt="virgo"> </a>
+		<a href="libra.html"> <img class="zodiacs" src="libra.png" height="250px" alt="virgo"> </a>
+		<a href="scorpio.html"> <img class="zodiacs" src="scorpio.png" height="250px" alt="virgo"> </a>
+		<a href="sagittarius.html"> <img class="zodiacs" src="sagittarius.png" height="250px" alt="virgo"> </a>
+		<a href="capricorn.html"> <img class="zodiacs" src="capricorn.png" height="220px" alt="virgo"> </a>
+		<a href="aquarius.html"> <img class="zodiacs" src="aquarius.png" height="240px" alt="virgo"> </a>
+		<a href="pisces.html"> <img class="zodiacs" src="pisces.png" height="230px" alt="virgo"> </a>
+	</center> </div>
+</body>
+</html> 
